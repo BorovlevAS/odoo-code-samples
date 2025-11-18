@@ -21,14 +21,19 @@ include client-specific code.
   KassaManager devices.
 
 - **POS PrivatBank Integration**  
-  Payment processing through PrivatBank card terminals via socket protocol,
-  supporting purchase and refund operations.
+  Payment processing through PrivatBank card terminals (purchase + refund)
+  using socket protocol.
+
+- **MIS Builder Customization**  
+  Adds fiscal-year-aware calculation modes and extends MIS Builder expression
+  processor using safe monkey patching.
 
 ## Notes
 
 - All internal module names and dependencies are replaced with neutral ones.
-- Modules are provided as examples of code structure and technical approach.
-- Each module has its own README with detailed documentation.
+- Modules are provided as examples of code structure, architecture, and
+  integration patterns.
+- Each module includes its own README with detailed documentation.
 
 ## Author
 
