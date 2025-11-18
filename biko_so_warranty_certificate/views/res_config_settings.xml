@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form_inherit1" model="ir.ui.view">
+        <field name="name">res.config.settings.inherit1</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="biko_base_module.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='biko_additional_settings']" position="inside">
+                <div
+                    class="col-12 col-lg-6 o_setting_box"
+                    name="biko_warranty_customization"
+                >
+                    <div class="o_setting_left_pane">
+                        <field name="biko_send_warranty" class="oe_inline" />
+                    </div>
+                    <div class="o_setting_right_pane">
+                        <label
+                            for="biko_send_warranty"
+                            string="Send warranty certificate"
+                        />
+                        <span
+                            class="fa fa-lg fa-building-o"
+                            title="Values set here are company-specific."
+                            aria-label="Values set here are company-specific."
+                            role="img"
+                        />
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

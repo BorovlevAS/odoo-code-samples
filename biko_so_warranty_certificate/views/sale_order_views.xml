@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_order_form_inherit" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <header position="inside" />
+            <xpath expr="//field[@name='order_line']/tree" position="inside">
+                <field name="warranty_id" invisible="1" />
+                <button
+                    string="Warranty"
+                    name="action_view_warranty"
+                    type="object"
+                    class="oe_highlight"
+                    attrs="{'invisible': [('warranty_id', '=', False)]}"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>

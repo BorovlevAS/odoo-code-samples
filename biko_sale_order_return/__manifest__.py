@@ -1,0 +1,31 @@
+{
+    "name": "SaleOrder return",
+    "summary": "SaleOrder return",
+    "version": "14.0.2.1.0",
+    "license": "LGPL-3",
+    "author": "Artem Borovlev",
+    "depends": [
+        "sale",
+        "account",
+        "stock",
+        "custom_contract_module",
+        "custom_accounting_module",
+    ],
+    "data": [
+        "security/ir_access_roles.xml",
+        "views/sale_stock_return_views.xml",
+        "views/sale_order_views.xml",
+        "wizards/sale_return_cancel_views.xml",
+        "wizards/select_sale_order_line_views.xml",
+        "data/sequence.xml",
+        "security/ir.model.access.csv",
+    ],
+    "demo": [],
+    "external_dependencies": {
+        "python": [],
+        "bin": [],
+    },
+    "installable": True,
+    "pre_init_hook": "pre_init_hook",
+    "post_init_hook": "post_init_hook",
+}

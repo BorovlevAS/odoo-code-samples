@@ -1,0 +1,485 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* biko_so_warranty_certificate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-09 11:51+0000\n"
+"PO-Revision-Date: 2024-07-09 11:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.res_config_settings_view_form_inherit1
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"role=\"img\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Налаштування задаються для "
+"компанії.\" aria-label=\"Налаштування задаються для компанії.\" "
+"role=\"img\"/>"
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"<span>\n"
+"                        Детально про умови гарантійного обслуговування: https://muztorg.ua/uk/servis-centr-muztorg/\n"
+"                    </span>"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"<strong>ГАРАНТІЙНИЙ ТАЛОН</strong>\n"
+"                    <br/>"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "<strong>ПРАВИЛА НАДАННЯ ГАРАНТІЙНОГО ОБСЛУГОВУВАННЯ</strong>"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"<strong>ТОВ «АТ-МТ ТРЕЙД»</strong>\n"
+"                            <br/>\n"
+"                            код за ЄДРПОУ 30572162\n"
+"                            <br/>\n"
+"                            Сервісний центр\n"
+"                            <br/>\n"
+"                            адреса: м. Київ, вул. Вербова, 4А\n"
+"                            <br/>\n"
+"                            тел.: (067) 441-62-40\n"
+"                            <br/>\n"
+"                            email: servicegroup@atmttrade.com\n"
+"                            <br/>"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_res_config_settings
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_crm_team__display_name
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_product_template__display_name
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_company__display_name
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order__display_name
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_crm_team__id
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_product_template__id
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_company__id
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_config_settings__id
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order__id
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order_line__id
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_stock_picking__id
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__id
+msgid "ID"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_crm_team____last_update
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_product_template____last_update
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_company____last_update
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order____last_update
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate____last_update
+msgid "Last Modified on"
+msgstr "Останні зміни на"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__name
+msgid "Name"
+msgstr "Номер"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__product_char
+msgid "Product Characteristic"
+msgstr "Характеристика продукту"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__product_name
+msgid "Product Name"
+msgstr "Назва продукту"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_product_template
+msgid "Product Template"
+msgstr "Шаблон продукту"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__so_line_id
+msgid "Sale Order Line"
+msgstr "Рядок замовлення на продаж"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__so_line_id_char
+msgid "Sale Order Line ID"
+msgstr "ID рядка замовлення на продаж"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__sale_order_id
+msgid "Sale order"
+msgstr "Замовлення на продаж"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_sale_order
+msgid "Sales Order"
+msgstr "Замовлення на продаж"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Рядок замовлення на продаж"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_crm_team
+msgid "Sales Team"
+msgstr "Команда продажу"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_crm_team__is_send_warranty
+msgid "Send Warranty Certificate"
+msgstr "Відправляти гарантійний талон"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_company__biko_send_warranty
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_res_config_settings__biko_send_warranty
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.res_config_settings_view_form_inherit1
+msgid "Send warranty certificate"
+msgstr "Відправляти гарантійний талон"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__serial_no
+msgid "Serial Number"
+msgstr "Серійний номер"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_stock_picking
+msgid "Transfer"
+msgstr "Переміщення"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order_line__warranty_id
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.biko_product_template_view_inherit
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.view_order_form_inherit
+msgid "Warranty"
+msgstr "Гарантія"
+
+#. module: biko_so_warranty_certificate
+#: code:addons/biko_so_warranty_certificate/controllers/main.py:0
+#, python-format
+msgid "Warranty Certificate"
+msgstr "Гарантійний талон"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__warranty_date
+msgid "Warranty Date"
+msgstr "Дата гарантії"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_warranty_certificate__warranty_duration
+msgid "Warranty Duration"
+msgstr "Термін гарантії"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_sale_order__warranty_generated
+msgid "Warranty Generated"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model,name:biko_so_warranty_certificate.model_warranty_certificate
+msgid "Warranty certificate"
+msgstr "Гарантійний талон"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_product_product__warranty_duration
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_product_template__warranty_duration
+msgid "Warranty duration"
+msgstr "Термін гарантії"
+
+#. module: biko_so_warranty_certificate
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_product_product__is_warranty
+#: model:ir.model.fields,field_description:biko_so_warranty_certificate.field_product_template__is_warranty
+msgid "Warranty needed"
+msgstr "Потрібна гарантія"
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "logo"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model:hms.mobile.messaging.message.template,template_body:biko_so_warranty_certificate.warranty_sms_tamplate
+msgid ""
+"Вітаємо!\n"
+"Посилання на гарантійні талони\n"
+"<% for line in object.order_line %>\n"
+"<% if line.warranty_id %>\n"
+"${ctx.base_url}/warranty/${line.warranty_id.id}\n"
+"<% endif %>\n"
+"<% endfor %>"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Гарантійний талон, що ви отримали під час купівлі, є необхідним документом, що підтверджує право покупця\n"
+"                (споживача) на безплатне гарантійне обслуговування товару протягом гарантійного терміну. Відповідно, його\n"
+"                відсутність позбавляє покупця (споживача) права на безкоштовне гарантійне обслуговування товару."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Гарантійні зобов'язання не поширюються на:\n"
+"                        <br/>"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "Найменування товару"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Несправні частини товару, його деталі, вузли й механізми, що замінюються в ході ремонту на\n"
+"                справні, є власністю Продавця і не підлягають передачі покупцеві (споживачеві)."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "Номер:"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Припинення гарантійних зобов'язань Продавця у перелічених вище випадках автоматично припиняє для покупця\n"
+"                (споживача) дію зобов'язань відносно термінів служби (придатності) товару."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Продавець залишає за собою право відмови в гарантійному обслуговуванні (ремонті) товару або здійснення його коштом\n"
+"                покупця (споживача), за вибором Продавця, з обов'язковим попереднім повідомленням про це покупця (споживача). Якщо\n"
+"                при проведенні перевірки (діагностики) товару буде виявлено одну або більше із зазначених умов:\n"
+"                        <br/>"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Продавець не несе відповідальності за втрату інформації, що знаходилася на магнітному \"жорсткому диску\" або на\n"
+"                дисках, zip, jazz, flash та інших носіях інформації у момент передачі товару в сервісний центр для його перевірки\n"
+"                (діагностики) або ремонту."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Протягом гарантійного терміну експлуатації споживач має право на безоплатне технічне\n"
+"                обслуговування товару, а у разі виявлення недоліків (відхилення від вимог нормативних документів) згідно з\n"
+"                положеннями Закону України \"Про захист прав споживачів\" та Порядку гарантійного ремонту (обслуговування) –\n"
+"                гарантійну заміну технічно складних побутових товарів."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "Серійний номер"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "Термін гарантійного строку:"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"У випадку виявлення протягом гарантійного терміну несправностей у товарі, він доставляється покупцем (споживачем)\n"
+"                у сервісний центр у штатній комплектності, передбаченою заводом виготовлювачем, і в упакуванні для його перевірки\n"
+"                (діагностики), а також встановлення причин виникнення несправностей. За результатами перевірки (діагностики)\n"
+"                товару, у випадку виявлення в ньому несправностей (заводського дефекту), пов'язаних з використанням виготовлювачем\n"
+"                неякісних деталей, вузлів і механізмів при виготовленні товару або його зборі, даний товар приймається сервісним\n"
+"                центром для усунення виявлених несправностей."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "Характеристика"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"Щоб уникнути нещасних випадків, появи в товарі несправностей, а також забезпечити ефективну і належну експлуатацію\n"
+"                товару, продавець рекомендує, а покупець (споживач) зобов'язується перед використанням (експлуатацією) придбаного\n"
+"                товару уважно вивчити технічну документацію на товар (інструкцію з експлуатації, паспорт на товар і т.д.) і\n"
+"                неухильно дотримуватись усіх вимог зазначених в ній."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "в інших випадках порушення споживачем правил експлуатації товару."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"використання видаткових матеріалів, вузлів, деталей, комплектуючих виробів, що не відповідають вимогам технічної\n"
+"                  документації на товар (паспорт на товар, інструкція з експлуатації і т.д.) та інших нормативних документів;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"внесення в товар конструктивних змін, у тому числі модифікація (модернізація) систем товару, різноманітні\n"
+"                  доробки, включаючи використання програмного забезпечення, не передбачених технічною документацією на товар\n"
+"                  (паспорт на товар, інструкція з експлуатації й т.д.);"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "від"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"гарантійний талон відсутній, або не відповідає встановленому зразку, у тому числі його підробка, підробка\n"
+"                  підпису або печатки продавця і т.д.;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"деталі, вузли й механізми товару, що вийшли з ладу в результаті їхнього природного зносу, видаткові елементи та\n"
+"                  матеріали, що мають обмежений термін використання (деталі обробки, елементи живлення, лампи, і т.д.)"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"здійснення установки та налаштування товару особами, що не мають на те відповідних повноважень і кваліфікації,\n"
+"                  якщо ця умова рекомендована виготовлювачем або продавцем товару;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"змінено, стерті або нерозбірливо написані в Гарантійному талоні модель товару, його серійний (заводський) номер,\n"
+"                  дата його покупки, найменування продавця, печатка продавця і т.д.;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"кабелі, антени, гітарні, мікрофонні та клавішні стійки, мікрофонні капсулі, вітрозахисні та головні гарнітури\n"
+"                  для мікрофонів, струни та інші аксесуари;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"механічні теплові ушкодження товару або його частин, у тому числі внаслідок недотримання правил і умов\n"
+"                  експлуатації товару, зазначених у технічній документації на товар (перевищення напруги живлення, невірного\n"
+"                  монтажу з'єднань, зриви різьблення на елементах механіки (tremolo, locks, барабанних і тарілкових кріпленнях і\n"
+"                  т.д.);"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "місяців"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"ознаки несанкціонованого ремонту товару не уповноваженою організацію або приватною особою (відсутність\n"
+"                  оригінального кріплення, самостійний розбір товару, порушення цілісності гарантійних пломб, інші сліди\n"
+"                  стороннього механічного впливу);"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"періодичне обслуговування товару, у тому числі модифікацію (модернізацію) систем товару і програмного\n"
+"                  забезпечення, його ремонт або заміну частин у зв'язку з їхнім моральним зносом."
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"порушення передбачених умов зберігання, транспортування і використання (експлуатації) товару, зазначених у\n"
+"                  технічній документації на товар, (паспорт на товар, інструкції з експлуатації й т.д.), а так само встановлених\n"
+"                  іншими нормативними актами;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"потрапляння всередину товару чужорідних предметів, що не є частинами даного товару, а також рідин, комах або\n"
+"                  продуктів їхньої життєдіяльності, що стали причиною виникнення несправностей товару;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid ""
+"програмне забезпечення, встановлене на магнітному \"жорсткому диску\" носії інформації, що є частиною товару або\n"
+"                  на дисках, zip, jazz, flash та інших носіях інформації;"
+msgstr ""
+
+#. module: biko_so_warranty_certificate
+#: model_terms:ir.ui.view,arch_db:biko_so_warranty_certificate.warranty_certificate
+msgid "стихійні лиха або незаконні дії третіх осіб;"
+msgstr ""

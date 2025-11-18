@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="warranty_certificate">
+        <t t-call="web.html_container">
+            <div class="page">
+                <style>
+                    table.header {
+                width: 100%;
+                }
+                table.header td{
+                    border: 0px !important;
+                }
+                table.goods {
+                width: 100%;
+                border-collapse: collapse;
+              }
+
+              table.goods th {
+                border: 1px solid black;
+              }
+
+              table.goods td.top {
+                border-left: 1px solid black;
+                border-top: 1px solid black;
+                border-right: 1px solid black;
+              }
+
+              table.goods td.bottom {
+                border-left: 1px solid black;
+                border-bottom: 1px solid black;
+                border-right: 1px solid black;
+              }
+
+              table.goods td.serial {
+                border: 1px solid black;
+                text-align: center;
+              }
+
+              .page-break {
+                page-break-after: always;
+              }
+
+              p.red-indent {
+                text-indent: 2em;
+              }
+                </style>
+                <table class="header">
+                    <tr>
+                        <td style="width: 50%;text-align: center;">
+                            <img
+                                width="40%"
+                                alt="logo"
+                                src="/biko_so_warranty_certificate/static/img/logo.png"
+                            />
+                        </td>
+                        <td style="width: 50%;font-size: 12pt;text-align: left;">
+                            <strong>ТОВ «КОМПАНІЯ»</strong>
+                            <br />
+                            код за ЄДРПОУ 12345678
+                            <br />
+                            Сервісний центр
+                            <br />
+                            адреса: м. Київ, вул. Хрещатик, 2
+                            <br />
+                            тел.: (044) 111-22-33
+                            <br />
+                            email: service@mycompany.ua
+                            <br />
+                        </td>
+                    </tr>
+                </table>
+                <div style="padding-top: 20pt;text-align: center;font-size: 18pt;">
+                    <strong>ГАРАНТІЙНИЙ ТАЛОН</strong>
+                    <br />
+                </div>
+                <div style="padding-top: 20pt; font-size: 14pt;">
+                    <span>
+                        Номер:
+                        <t t-esc="warranty_number" />
+                    </span>
+                    <br />
+                    <span>
+                        від
+                        <t t-esc="warranty_date.strftime('%d.%m.%Y')" />
+                        р.
+                    </span>
+                    <br />
+                </div>
+                <br />
+                <table class="goods">
+                    <thead>
+                        <tr>
+                            <th style="width: 70%;">Найменування товару</th>
+                            <th rowspan="2">Серійний номер</th>
+                        </tr>
+                        <tr>
+                            <th>Характеристика</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="top">
+                                <span t-esc="product_name" />
+                            </td>
+                            <td class="serial" rowspan="2">
+                                <span t-esc="serial_no" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bottom">
+                                <span t-esc="product_char" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <p>
+                    <span>
+                        Термін гарантійного строку:
+                        <t t-esc="warranty_duration" />
+                        місяців
+                    </span>
+                </p>
+                <p>
+                    <span>
+                        Детально про умови гарантійного обслуговування: https://mycompany.ua/warranty/
+                    </span>
+                </p>
+                <div class="page-break" />
+
+                <div>
+                    <p style="text-align: center;">
+                        <strong>ПРАВИЛА НАДАННЯ ГАРАНТІЙНОГО ОБСЛУГОВУВАННЯ</strong>
+                    </p>
+                    <p class="red-indent">
+                        Деякі правила.
+                    </p>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

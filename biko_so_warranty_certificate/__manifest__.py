@@ -1,0 +1,27 @@
+{
+    "name": "BIKO: Warranty Certificate for Sale Order",
+    "version": "14.0.1.0.0",
+    "author": "BIKO Solutions, Artem Borovlev",
+    "depends": [
+        "sale",
+        "sale_stock",
+        "custom_sms_gateway",
+        "biko_base_module",
+        "sales_team",
+    ],
+    "data": [
+        "data/sequence.xml",
+        "data/sms_template.xml",
+        "views/warranty_views.xml",
+        "views/product_template_views.xml",
+        "views/sale_order_views.xml",
+        "views/crm_team_views.xml",
+        "reports/warranty_certificate_report.xml",
+        "security/ir.model.access.csv",
+        "views/res_config_settings.xml",
+    ],
+    "license": "LGPL-3",
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+}

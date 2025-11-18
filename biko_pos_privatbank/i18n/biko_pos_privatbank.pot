@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* biko_pos_privatbank
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-08 07:03+0000\n"
+"PO-Revision-Date: 2025-03-08 07:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "%(model_caption)s ID=%(order_id)d not found."
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "Can't connect with the terminal."
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_privatbank_terminal_transaction__display_name
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_return_order_checkbox_wizard__display_name
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_order__display_name
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_order_checkbox_wizard__display_name
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_stock_return__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "Error parsing reply from the terminal. Info %(info)s"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "Error receiving data from the terminal."
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "Error sending data to the terminal."
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_privatbank_terminal_transaction__id
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_return_order_checkbox_wizard__id
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_order__id
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_order_checkbox_wizard__id
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_stock_return__id
+msgid "ID"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_privatbank_terminal_transaction____last_update
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_return_order_checkbox_wizard____last_update
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_order____last_update
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_order_checkbox_wizard____last_update
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_sale_stock_return____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_privatbank_terminal_transaction__order_ref
+msgid "Order Ref"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "POS Order"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "Payment type ID=%(payment_type_id)d not found."
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "Return Order"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model,name:biko_pos_privatbank.model_return_order_checkbox_wizard
+msgid "Return Order Checkbox Wizard"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/privat_terminal_api.py:0
+#, python-format
+msgid "Sale Order"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model,name:biko_pos_privatbank.model_sale_order_checkbox_wizard
+msgid "Sale Order Checkbox Wizard"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model,name:biko_pos_privatbank.model_sale_stock_return
+msgid "Sale stock return"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model,name:biko_pos_privatbank.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model.fields,field_description:biko_pos_privatbank.field_privatbank_terminal_transaction__so_payment_type_id
+msgid "So Payment Type"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: code:addons/biko_pos_privatbank/models/return_order_checkbox_wizard.py:0
+#: code:addons/biko_pos_privatbank/models/sale_order_checkbox_wizard.py:0
+#, python-format
+msgid "Unexpected error"
+msgstr ""
+
+#. module: biko_pos_privatbank
+#: model:ir.model,name:biko_pos_privatbank.model_privatbank_terminal_transaction
+msgid "privatbank_terminal.transaction"
+msgstr ""
